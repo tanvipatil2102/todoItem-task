@@ -61,7 +61,7 @@ const templating = (arr) =>{
     arr.forEach(todo =>{
         result += `
         
-        <li class="list-group-item d-flex justify-content-between lisT mt-4" id="${todo.todoId}">
+        <li class="list-group-item d-flex justify-content-between lisT" id="${todo.todoId}">
           <span>${todo.todoItem}</span>
           <span>
             <button class="btn btn-primary" onclick="onClickEdit(this)">Edit</button>
